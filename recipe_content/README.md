@@ -1,4 +1,4 @@
-# <PROJECT_ID> Service
+# <!!PROJECT_ID!!> Service
  //@TODO add project description
 
 ## Make

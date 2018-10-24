@@ -1,12 +1,12 @@
 export DOCKERUTIL_PATH = ./vendor/sarehub/dockerutil/bin/dockerutil
-export PROJECT = aggregator
+export PROJECT = <!!PROJECT_ID!!>
 
 INFO = Showing targets for selected ENVIRONMENT(default: test)
 EXTRA_MAKE_ARGS = ENVIRONMENT=test|prod
 HELP_TARGET_MAX_CHAR_NUM = 30
 SUBPROJECTS = <empty>
 
-export SUBPROJECT = <empty>
+export SUBPROJECT = <!!SUBPROJECTS!!>
 include ./vendor/sarehub/dockerutil/bin/MakeHelp
 
 export ENVIRONMENT ?= test
