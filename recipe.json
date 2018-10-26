@@ -1,0 +1,14 @@
+{
+  "name": "basic_service",
+  "archiveUri": "https://github.com/SAREhub/PHP_Commons/archive/master.zip",
+  "injectSteps": [
+    {
+      "type": "CopyFiles",
+      "parameters": {
+        "files": {
+          "recipe_content/": ""
+        }
+      }
+    }
+  ]
+}
