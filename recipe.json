@@ -1,7 +1,7 @@
 {
   "name": "basic_service",
   "archiveUri": "https://github.com/SAREhub/PHP_Commons/archive/master.zip",
-  "injectSteps": [
+  "injectTasks": [
     {
       "type": "CopyFiles",
       "parameters": {
